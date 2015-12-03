@@ -1,0 +1,17 @@
+Nom du fichier photo : photo.png
+
+Prénom : Théo
+
+Nom : MARTIN
+
+Date de naissance : 25/12/0000
+
+Adresse : Jerusalem
+
+Email : theo.martin22@icloud.com
+
+Biographie : Né en 1994, Théo Martin est un génie milliardaire playboy philanthrope.
+
+Projets pro futurs : Créer une société alliant devellopement web/applications et environnement.
+
+Hobbies : Informatique, jeux vidéo, voiture, musiques, cinémas, plongé sous-marine, montagne, campagne, jolie fille typé latina :)
