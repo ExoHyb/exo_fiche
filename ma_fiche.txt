@@ -6,6 +6,8 @@ Nom : MARTIN
 
 Date de naissance : 25/12/0000
 
+Nationalité : Française
+
 Adresse : Jerusalem
 
 Email : theo.martin22@icloud.com
