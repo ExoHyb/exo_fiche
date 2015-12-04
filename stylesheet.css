@@ -1,0 +1,40 @@
+body {
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  font-size: 25px;
+  color: #71B43D;
+}
+
+h4 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: #3C3C3C;
+}
+
+p, label {
+  color: #777777;
+  font-size: 14px;
+  line-height: 1.75;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+.grey-bg {
+  background-color: #F7F7F7;
+}
+
+ul {
+  color: #777777;
+  font-size: 14px;
+  line-height: 1.75;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 500px;
+}
