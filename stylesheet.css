@@ -77,24 +77,17 @@ footer {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-ul {
-  color: #777777;
-  font-size: 14px;
-  line-height: 1.75;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-ul#menu_horizontal li {
+#menu_horizontal li {
   display: inline;
   padding: 0 0.5em;
 }
 
-ul#menu_horizontal {
+#menu_horizontal {
   list-style: none;
   display: inline;
 }
 
-ul#menu_horizontal a {
+#menu_horizontal a {
   color: white;
   text-transform: uppercase;
   text-decoration: none;
@@ -102,11 +95,11 @@ ul#menu_horizontal a {
   font-weight: bold;
 }
 
-ul#menu_horizontal a:hover {
+#menu_horizontal a:hover {
   color: #71b43d;
 }
 
-img {
+#phopro {
   border-radius: 10px;
   float: left;
   margin: 10px 0 0 10px;
@@ -117,10 +110,6 @@ img {
   margin: 0 0 0 280px;
 }
 
- * {
- border: 1px dashed blue;
-}
-
 .objectif {
   display: block;
 }
@@ -128,4 +117,27 @@ img {
 div {
   margin-left: 100px;
   margin-right: 100px;
+}
+
+.trombi img {
+  display: block;
+}
+
+.trombi li {
+    list-style: none;
+    text-decoration: none;
+    width: 150px;
+    height: 190px;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+}
+
+.trombi a {
+  text-decoration: none;
+}
+
+.galerie {
+  width: 960px;
+  margin: auto;
 }
