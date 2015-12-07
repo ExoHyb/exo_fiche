@@ -1,16 +1,38 @@
 body {
-  margin: auto;
-  width: 1100px;
+  margin: 0;
 }
 
 header {
-  text-align: center;
   font-size: 25px;
   color: #71B43D;
+  background-color: #222;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  margin-bottom: 0px;
+}
+
+
+.bio {
+  display: block;
+  padding-bottom: 30px;
+}
+
+.projets {
+}
+
+span {
+  margin-left: 150px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.grey-bg {
+  background-color: #F7F7F7;
 }
 
 h3 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-block;
 }
 
 h4 {
@@ -20,7 +42,6 @@ h4 {
   display: inline-block;
   text-transform: uppercase;
   margin-left: 10px;
-  margin-top: 50px;
 }
 
 h5 {
@@ -61,25 +82,50 @@ ul {
   font-size: 14px;
   line-height: 1.75;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-left: 20px;
 }
 
-a {
+ul#menu_horizontal li {
+  display: inline;
+  padding: 0 0.5em;
+}
+
+ul#menu_horizontal {
+  list-style: none;
+  display: inline;
+}
+
+ul#menu_horizontal a {
+  color: white;
+  text-transform: uppercase;
   text-decoration: none;
-  color: #71B43D;
-  font-size: 14px;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 
-a:hover {
-  color: #777777;
+ul#menu_horizontal a:hover {
+  color: #71b43d;
 }
 
 img {
   border-radius: 10px;
   float: left;
   margin: 10px 0 0 10px;
+  display: block;
 }
 
 .bio p {
   margin: 0 0 0 280px;
+}
+
+ * {
+ border: 1px dashed blue;
+}
+
+.objectif {
+  display: block;
+}
+
+div {
+  margin-left: 100px;
+  margin-right: 100px;
 }
