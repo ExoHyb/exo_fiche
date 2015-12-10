@@ -23,6 +23,7 @@
   </div>
 </header>
 
+<!-- Section à propos -->
   <section id="about", class="grey-bg container">
     <div class="raw">
       <div class="left">
@@ -40,6 +41,7 @@
     </div>
   </section>
 
+<!-- Section biographie -->
   <section class="bio">
     <div class="raw">
       <h4 id="bio">Biographie</h4>
@@ -47,6 +49,7 @@
     </div>
   </section>
 
+<!-- Section objectif -->
   <section class="obj grey-bg">
     <div class="raw">
       <h4 id="obj">Objectif après Còdi n Camp </h4>
@@ -54,6 +57,7 @@
     </div>
   </section>
 
+<!-- Section projets -->
   <section class="projets">
     <div class="raw">
       <h4 id="projet">Projets</h4>
@@ -70,6 +74,7 @@
         </div>
   </section>
 
+<!-- Section loisirs -->
   <section class="loisirs grey-bg">
     <div class="raw">
       <h4>Loisirs </h4>
@@ -82,32 +87,34 @@
           </ul>
         </div>
   </section>
+
+<!-- Section contact -->
   <section class="contact">
-    <form action="contact-traitement.html" method="post" class="formu">
-      <h4 id="contact">#Formulaire de contact</h4>
-      <div>
-          <label class="align" for="nom">Nom :</label>
-          <input type="text" name="nom" />
-      </div>
+    <form action="/back/contact" method="post" class="formu">
+      <input type="hidden" name="to" value="theo.martin22@icloud.com" />
+        <div>
+            <label class="align" for="nom">Nom :</label>
+            <input type="text" name="nom" />
+        </div>
 
-      <div>
-        <label class="align" for="prenom">Prénom :</label>
-        <input type="text" name="prenom" />
-      </div>
+        <div>
+          <label class="align" for="prenom">Prénom :</label>
+          <input type="text" name="prenom" />
+        </div>
 
-      <div>
-          <label class="align" for="courriel">Courriel :</label>
-          <input type="email" name="courriel" />
-      </div>
+        <div>
+            <label class="align" for="courriel">Votre mail :</label>
+            <input type="email" name="from" />
+        </div>
 
-      <div>
-          <label class="align" for="message">Message :</label>
-          <textarea id="message"></textarea>
-      </div>
+        <div>
+            <label class="align" for="message">Message :</label>
+            <textarea name="body" id="message"></textarea>
+        </div>
 
-      <div class="button">
-          <button type="submit">Envoyer votre message</button>
-      </div>
+        <div class="button">
+            <button type="submit">Envoyer votre message</button>
+        </div>
 
     </form>
   </section>
