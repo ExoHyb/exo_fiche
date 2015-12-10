@@ -6,6 +6,8 @@
     <title>MARTIN THEO | Còdi n Camp - Promo 1</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <header>
@@ -17,6 +19,7 @@
           <li><a href="#bio">Biographie</a></li>
           <li><a href="#obj">Objectif</a></li>
           <li><a href="#projet">Projets</a></li>
+          <li><a href="#loisir">Loisirs</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -31,12 +34,13 @@
         <label>NOM : Martin</label><br>
         <label>PRENOM : Théo</label><br>
         <label>VILLE : Saint Etienne (42)</label><br>
-        <label>AGE : 26/01/1994</label><br>
-        <label>GITHUB : <a href="https://github.com/ExoHyb">Théo Martin - ExoHyb</a></label><br>
-        <label>TWITTER : <a href="https://twitter.com/ExoHyb">Théo Martin - ExoHyb</a></label>
+        <label>AGE : 21 ans</label><br>
+        <label><a href="https://github.com/ExoHyb"><img src="img/twitter_icon.png" alt="Twitter Icon" height="50" width="50"/></a></label>
+        <label><a href="https://twitter.com/ExoHyb"><img src="img/github_icon.png" alt="Github Icon" height="50" width="50"/></a></label>
       </div>
+
       <div class="right">
-        <img id="phopro" src="http://placehold.it/150x200" alt="Photo de profil"/>
+        <img id="phopro" src="img/tmartin.jpg" alt="Photo de profil"height="200" width="200"/>
       </div>
     </div>
   </section>
@@ -45,7 +49,9 @@
   <section class="bio">
     <div class="raw">
       <h4 id="bio">Biographie</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Je suis née le 26 janvier 1994, je suis passionné d'informatique et de jeux vidéos depuis l'enfance. J'ai beaucoup d'éxperiences dans divers corp de travaille (Menuiserie nautique, mécanique, batiment, etc...)<br>
+        J'ai vécu sur un voilier pendant un certains temps =) J'adore les sports nautique tels que planche à voile, hobbie cat, surf...</p>
+        <cite>Citation : génie milliardaire playboy philanthrope. Tony Stark - The Avengers ;)</cite>
     </div>
   </section>
 
@@ -53,7 +59,9 @@
   <section class="obj grey-bg">
     <div class="raw">
       <h4 id="obj">Objectif après Còdi n Camp </h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Je souhaite créer ma société dans le devellopement web (création de site statique et dynamique, applications smartphone, jeux vidéos)<br>
+        Mais aussi, develloper des applications et des sites de prise de conscience environnementale.<br>
+      Et beaucoup d'autres idées!!!</p>
     </div>
   </section>
 
@@ -61,23 +69,27 @@
   <section class="projets">
     <div class="raw">
       <h4 id="projet">Projets</h4>
-          <h5>Réalisée :</h5>
+      <div id="rea">
+          <h5>Réalisée</h5>
           <ul>
               <li>Création de serveur de jeux vidéos</li>
               <li>Divers sites HTML/CSS & PHP</li>
           </ul>
+        </div>
 
-          <h5>En cours :</h5>
+        <div id="ec">
+          <h5>En cours</h5>
           <ul>
               <li>Pleins d'idées</li>
           </ul>
+        </div>
         </div>
   </section>
 
 <!-- Section loisirs -->
   <section class="loisirs grey-bg">
     <div class="raw">
-      <h4>Loisirs </h4>
+      <h4 id="loisir">Loisirs</h4>
           <ul>
               <li>Coder</li>
               <li>Cinémas</li>
@@ -90,6 +102,8 @@
 
 <!-- Section contact -->
   <section class="contact">
+    <div class="raw">
+    <h4 id="contact">Contact</h4>
     <form action="/back/contact" method="post" class="formu">
       <input type="hidden" name="to" value="theo.martin22@icloud.com" />
         <div>
@@ -117,6 +131,7 @@
         </div>
 
     </form>
+  </div>
   </section>
 
   <footer class="grey-bg">FOOTER © - Còdi n Camp - 2015 - CC BY SA-NC</footer>
